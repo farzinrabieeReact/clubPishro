@@ -1,0 +1,225 @@
+@font-face {
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.eot");
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.Web");
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.woff");
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.woff2");
+
+  font-family: "iransans";
+}
+
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/media/fonts/Farsi/Vazir-Medium-FD.eot');
+  src: url('/media/fonts/Farsi/Vazir-Medium-FD.eot?#iefix') format('FontName-opentype'),
+    url('/media/fonts/Farsi/Vazir-Medium-FD.woff') format('woff'),
+    url('/media/fonts/Farsi/Vazir-Medium-FD.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body,
+input,
+Button,
+.Toastify__toast {
+  font-family: "Vazir" !important;
+}
+
+
+.btnColorSuccess {
+  color: #1bc5bd !important;
+  border-color: #1bc5bd !important;
+}
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  background-color: white;
+  padding: 0 3px;
+}
+.color-g {
+  color: #64A51C !important;
+  fill: #64A51C !important;
+  transform: all 0.2s ease;
+
+}
+
+.font-iransans {
+  font-family: "iransans" !important;
+}
+
+
+.color-hover:hover {
+  color: #64A51C !important;
+  transform: all 0.2s ease;
+}
+
+.MuiPaginationItem-page.Mui-selected {
+  background-color: #64A51C !important;
+  transform: all 0.2s ease;
+  color: white !important;
+}
+
+.btn-success {
+  background-color: #64A51C !important;
+  border-color: #64A51C !important;
+}
+
+.ck-editor__editable {
+  min-height: 200px;
+  max-height: 400px;
+}
+
+.align-sub {
+  vertical-align: sub;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #64A51C !important;
+}
+
+.text-height-30 {
+  line-height: 30px;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-muted-custom {
+  color: #787E85;
+}
+
+.htmlContent img {
+  max-width: 100% !important;
+}
+
+.quick-search.quick-search-dropdown {
+  padding: 0 !important;
+}
+
+.MuiPaper-elevation24 {
+  box-shadow: .5px .5px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+#loading-treemap{
+  width: 100%;
+  position: absolute;
+  top: 305px;
+  right: 233px;
+  display: none;
+}
+
+// .sticky-toolbar
+.sticky-toolbar {
+
+  right: 0 !important;
+  border-top-left-radius: .42rem;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: .42rem;
+  border-bottom-right-radius: 0 !important;
+}
+
+.handleHover {
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
+  transition: all, .2s;
+}
+
+.flash {
+  display: inline-block;
+  border: 9px solid;
+  border-color: transparent transparent transparent white;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 7px;
+  right: -18px;
+}
+
+.img {
+  border-radius: 10px !important;
+}
+
+.heightInAccordion {
+  display: flex;
+  justify-content: center !important;
+}
+
+.disabledItems {
+  pointer-events: none !important;
+  color: #ccc !important;
+  border-color: #ccc !important;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .MuiPaginationItem-root {
+    height: 25px !important;
+    min-width: 25px !important;
+    margin: 0 2px !important;
+  }
+
+  #emailHelp {
+    font-size: 10px !important;
+  }
+
+  .sticky-toolbar {
+    right: -8px !important;
+    top: 50vh !important;
+    opacity: .7;
+  }
+
+  .sticky-toolbarActive {
+    opacity: 1;
+  }
+
+  .MuiPagination-ul {
+    flex-wrap: nowrap !important;
+  }
+}
+
+.MuiBackdrop-root.target{
+  background-color: rgba(0, 0, 0, 0.55) !important;
+}
+
+
+
+// .ck-editor ,.ck-editor__editable_inline,.ck-editor__main{
+//   height: 90% !important;
+// }
+
+// Default Layout themes
+// @import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+// @import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+// @import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+// @import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+
+// Header themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/base/dark.scss";
+
+// Header Menu themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/menu/dark.scss";
+
+// Brand themes
+// .brand-dark {
+//   @import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+// }
+// // Light
+// .brand-light {
+//   @import "./_metronic/_assets/sass/themes/layout/brand/light.scss";
+// }
+
+// Aside themes
+// Dark
+//@import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+// Light
+// @import "./_metronic/_assets/sass/themes/layout/aside/light.scss";
+
+// .example-highlight {
+//   padding: 0rem 1.5rem 1.75rem !important;
+// }
